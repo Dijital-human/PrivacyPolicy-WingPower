@@ -1,65 +1,212 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Flappy Bird</title>
+    <title>Wing Power: Adventure - Məxfilik Siyasəti / Privacy Policy</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
             line-height: 1.6;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
             max-width: 800px;
             margin: 0 auto;
-            padding: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
         }
-        h1 { color: #007AFF; }
-        h2 { color: #007AFF; margin-top: 30px; }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        
+        .section p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+        
+        .section ul {
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .section li {
+            color: #555;
+            margin-bottom: 5px;
+        }
+        
+        .contact-info {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        
+        .email {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 14px;
+        }
+        
+        .last-updated {
+            color: #999;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p><em>Last updated: January 28, 2026</em></p>
-    
-    <h2>Introduction</h2>
-    <p>Flappy Bird ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and share information when you use our mobile application.</p>
-    
-    <h2>Information We Collect</h2>
-    <p>We collect the following types of information:</p>
-    
-    <h3>Device ID</h3>
-    <ul>
-        <li><strong>Purpose:</strong> Advertising and marketing</li>
-        <li><strong>Used for Tracking:</strong> Yes</li>
-        <li><strong>Third-Party:</strong> Google AdMob</li>
-    </ul>
-    
-    <h3>Advertising Data</h3>
-    <ul>
-        <li><strong>Purpose:</strong> Third-party advertising</li>
-        <li><strong>Used for Tracking:</strong> Yes</li>
-        <li><strong>Third-Party:</strong> Google AdMob</li>
-    </ul>
-    
-    <h3>Product Interaction Data</h3>
-    <ul>
-        <li><strong>Purpose:</strong> Analytics</li>
-        <li><strong>Used for Tracking:</strong> No</li>
-        <li><strong>Third-Party:</strong> Firebase Analytics</li>
-    </ul>
-    
-    <h3>Crash Data</h3>
-    <ul>
-        <li><strong>Purpose:</strong> Crash reporting</li>
-        <li><strong>Used for Tracking:</strong> No</li>
-        <li><strong>Third-Party:</strong> Firebase Crashlytics</li>
-    </ul>
-    
-    <h2>Third-Party Services</h2>
-    <p>We use Google AdMob for advertisements and Firebase for analytics and crash reporting.</p>
-    
-    <h2>Contact Us</h2>
-    <p>If you have questions, contact us at: [Your email]</p>
-    
-    <p><small>© 2026 Dijital Human. All rights reserved.</small></p>
+    <div class="container">
+        <h1>Wing Power: Adventure</h1>
+        <p class="subtitle">Məxfilik Siyasəti / Privacy Policy</p>
+        <p class="last-updated">Son yenilənmə / Last Updated: Fevral 2026 / February 2026</p>
+        
+        <div class="section">
+            <h2>📋 Məxfilik Siyasəti / Privacy Policy</h2>
+            <p>Bu Məxfilik Siyasəti Wing Power: Adventure oyununun ("Biz", "Bizim", "Oyun") məlumat toplama, istifadə və açıqlama praktikalarını izah edir.</p>
+            <p>This Privacy Policy describes the information collection, use, and disclosure practices of Wing Power: Adventure game ("We", "Our", "Game").</p>
+        </div>
+        
+        <div class="section">
+            <h2>📱 Toplanan Məlumatlar / Information We Collect</h2>
+            
+            <h3>1. Oyun Məlumatları / Game Data</h3>
+            <p>Oyun zamanı aşağıdakı məlumatlar toplanır:</p>
+            <ul>
+                <li>Skor və statistika məlumatları / Score and statistics data</li>
+                <li>Oyun təcrübəsi məlumatları / Gameplay experience data</li>
+                <li>Quş seçimləri və unlock status-u / Bird selections and unlock status</li>
+            </ul>
+            
+            <h3>2. Cihaz Məlumatları / Device Information</h3>
+            <p>Oyunun düzgün işləməsi üçün:</p>
+            <ul>
+                <li>Cihaz növü və modeli / Device type and model</li>
+                <li>iOS versiyası / iOS version</li>
+                <li>Oyun performans məlumatları / Game performance data</li>
+            </ul>
+            
+            <h3>3. Reklam Məlumatları / Advertising Data</h3>
+            <p>Reklamların göstərilməsi üçün:</p>
+            <ul>
+                <li>Reklam ID (IDFA) - yalnız reklamlar üçün / Advertising ID (IDFA) - for ads only</li>
+                <li>Reklam interaksiya məlumatları / Ad interaction data</li>
+            </ul>
+            <p><strong>Qeyd:</strong> Reklam ID-ni yalnız reklamların göstərilməsi üçün istifadə edirik. Bu məlumatı üçüncü tərəflərlə paylaşmırıq.</p>
+            <p><strong>Note:</strong> We only use advertising ID for displaying ads. We do not share this information with third parties.</p>
+        </div>
+        
+        <div class="section">
+            <h2>🔧 Məlumatların İstifadəsi / How We Use Information</h2>
+            <p>Toplanan məlumatlar aşağıdakı məqsədlər üçün istifadə olunur:</p>
+            <ul>
+                <li>Oyunun işləməsi və təkmilləşdirilməsi / Game functionality and improvement</li>
+                <li>Reklamların göstərilməsi (AdMob) / Displaying ads (AdMob)</li>
+                <li>Oyun statistikalarının saxlanması / Storing game statistics</li>
+                <li>Xətaların təhlili və düzəldilməsi / Error analysis and fixing</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>🤝 Üçüncü Tərəf Xidmətləri / Third-Party Services</h2>
+            
+            <h3>Google AdMob</h3>
+            <p>Oyunumuz reklamların göstərilməsi üçün Google AdMob istifadə edir. AdMob-un məxfilik siyasəti:</p>
+            <p><a href="https://policies.google.com/privacy" class="email">https://policies.google.com/privacy</a></p>
+            
+            <h3>Firebase Analytics</h3>
+            <p>Oyun analitikası üçün Firebase Analytics istifadə olunur. Firebase-in məxfilik siyasəti:</p>
+            <p><a href="https://firebase.google.com/support/privacy" class="email">https://firebase.google.com/support/privacy</a></p>
+            
+            <h3>Apple StoreKit</h3>
+            <p>In-app purchase-lar üçün Apple StoreKit istifadə olunur. Bütün ödənişlər Apple tərəfindən emal olunur.</p>
+        </div>
+        
+        <div class="section">
+            <h2>🔒 Məlumatların Qorunması / Data Security</h2>
+            <p>Məlumatlarınızın təhlükəsizliyi bizim üçün vacibdir. Məlumatlar:</p>
+            <ul>
+                <li>Cihazınızda lokal olaraq saxlanılır (UserDefaults) / Stored locally on your device (UserDefaults)</li>
+                <li>Şifrələnmiş kanallar vasitəsilə ötürülür / Transmitted through encrypted channels</li>
+                <li>Üçüncü tərəflərlə paylaşılmır / Not shared with third parties</li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>👶 Uşaqların Məxfilik Hüququ / Children's Privacy</h2>
+            <p>Oyunumuz 13 yaşdan kiçik uşaqlardan məlumat qəsdən toplamır. Əgər uşağınızın məlumatı toplanıbsa, bizimlə əlaqə saxlayın.</p>
+            <p>Our game does not knowingly collect information from children under 13. If your child's information has been collected, please contact us.</p>
+        </div>
+        
+        <div class="section">
+            <h2>📧 Məxfilik Hüquqlarınız / Your Privacy Rights</h2>
+            <p>Siz aşağıdakı hüquqlara maliksiniz:</p>
+            <ul>
+                <li>Toplanan məlumatlarınızı görmək / View your collected data</li>
+                <li>Məlumatlarınızı silmək / Delete your data</li>
+                <li>Reklam tracking-i söndürmək / Disable ad tracking</li>
+            </ul>
+            <p>Bu hüquqlarınızdan istifadə etmək üçün bizimlə əlaqə saxlayın.</p>
+        </div>
+        
+        <div class="section">
+            <h2>📧 Əlaqə / Contact</h2>
+            <div class="contact-info">
+                <p><strong>Email / Email:</strong></p>
+                <p><a href="mailto:support@ulustore.com" class="email">dijital_human@icloud.com</a></p>
+                <p style="margin-top: 15px;"><strong>Support URL / Support URL:</strong></p>
+                <p><a href="https://dijital-human.github.io/wing-power-support/support.html" class="email">https://dijital-human.github.io/wing-power-support/support.html</a></p>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔄 Siyasətin Dəyişdirilməsi / Policy Changes</h2>
+            <p>Bu Məxfilik Siyasətini istənilən vaxt yeniləyə bilərik. Dəyişikliklər bu səhifədə yayımlanacaq.</p>
+            <p>We may update this Privacy Policy at any time. Changes will be posted on this page.</p>
+        </div>
+        
+        <div class="footer">
+            <p>© 2026 Wing Power: Adventure. Bütün hüquqlar qorunur. / All rights reserved.</p>
+        </div>
+    </div>
 </body>
 </html>
